@@ -1,22 +1,27 @@
+.botaoWrapper {
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 10px; 
+}
 
 .botao {
-    /* Estilos para o botão */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  background-color: white; 
+  color: #333; 
+  border: 1px solid #333; 
+  padding: 10px 20px; 
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px; 
+  width: 200px; 
+  height: 40px; 
   
+}
   .botao span {
-    /* Estilos para o texto do botão */
-    margin-left: 8px; /* Espaçamento entre o ícone e o texto */
+    margin-left: 8px; 
   }
   
   .botao:hover {

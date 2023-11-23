@@ -33,6 +33,17 @@
   cursor: pointer; 
   transition: none; 
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh;
+}
+
+.centerContent {
+  margin-bottom: 150px; 
+}
 
 
 
