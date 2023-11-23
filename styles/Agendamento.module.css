@@ -1,0 +1,53 @@
+.pageCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+.box {
+    display: flex;
+    width: 220px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    background: var(--texto-branco, #FFF);
+  }
+  .dataBox {
+    display: flex;
+    width: 220px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    background: var(--texto-branco, #FFF)
+  }
+  
+  .horarioBox {
+    display: flex;
+    width: 220px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    background: var(--texto-branco, #FFF)
+  }
+  
+  .especialidadeBox {
+    display: flex;
+    width: 220px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    background: var(--texto-branco, #FFF)
+  }
+  

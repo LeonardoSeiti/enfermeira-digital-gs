@@ -1,20 +1,36 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import React from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import styles from '../styles/Home.module.css'; // Importar estilos CSS
+import Link from 'next/link';
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Enfermeira Digital</title>
-        <link rel="icon" href="/logo.ico" />
-      </Head>
-
-      <main>
-        <h1>Enfermeira Digital</h1>
+    <div>
+      <Header />
+      <main className={styles.container}>
+        <div className={styles.boxContainer}>
+          <div className={styles.box}>
+              <Link href="/agendamento">
+               <div className={styles.box}>
+               Agendamentos
+               </div>
+              </Link>
+          </div>
+          <div className={styles.box}>
+            Página 2
+          </div>
+          <div className={styles.box}> 
+            Página 3
+          </div>
+          <div className={styles.box}> 
+            Página 4
+          </div>
+        </div>
       </main>
-
-      <footer>
-      </footer>
+      <Footer />
     </div>
   );
-}
+};
+
+export default Home;
