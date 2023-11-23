@@ -1,5 +1,3 @@
-// components/Botao.js
-
 import React from 'react';
 import { Calendar } from 'react-feather'; 
 import styles from '../styles/Botao.module.css'; 

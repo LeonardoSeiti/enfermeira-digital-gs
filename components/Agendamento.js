@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import styles from '../styles/Agendamento.module.css'; // Importar estilos CSS
-import Header from './Header.js'; // Importar o componente Header
-import Footer from './Footer.js'; // Importar o componente Footer
+import styles from '../styles/Agendamento.module.css'; 
+import Header from './Header.js'; 
+import Footer from './Footer.js'; 
 import EquipeFooter from './EquipeFooter.js';
 
 const Agendamento = () => {
@@ -34,7 +34,7 @@ const Agendamento = () => {
 
   return (
     <div>
-      <Header /> {/* Adicionando o componente Header */}
+      <Header /> 
       <div className={styles.pageCenter}>
         <div className={styles.container}>
           <h1 style={{ color: 'orange', fontSize: '13px' }}>Dados de Agendamento</h1>
