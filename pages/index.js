@@ -1,8 +1,12 @@
+// pages/index.js
+
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import styles from '../styles/Home.module.css'; // Importar estilos CSS
+import Botao from '../components/Botão';
+import styles from '../styles/Home.module.css';
 import Link from 'next/link';
+import EquipeFooter from '../components/EquipeFooter.js';
 
 const Home = () => {
   return (
@@ -11,24 +15,16 @@ const Home = () => {
       <main className={styles.container}>
         <div className={styles.boxContainer}>
           <div className={styles.box}>
-              <Link href="/agendamento">
-               <div className={styles.box}>
-               Agendamentos
-               </div>
-              </Link>
+            {/* Adicionando o botão com o ícone de calendário */}
+            <Link href="/agendamento">
+              <Botao texto="Agendamentos" />
+            </Link>
           </div>
-          <div className={styles.box}>
-            Página 2
-          </div>
-          <div className={styles.box}> 
-            Página 3
-          </div>
-          <div className={styles.box}> 
-            Página 4
-          </div>
+          {/* Restante das caixas */}
         </div>
       </main>
       <Footer />
+      <EquipeFooter />
     </div>
   );
 };

@@ -1,0 +1,25 @@
+
+.botao {
+    /* Estilos para o botão */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao span {
+    /* Estilos para o texto do botão */
+    margin-left: 8px; /* Espaçamento entre o ícone e o texto */
+  }
+  
+  .botao:hover {
+    background-color: #0056b3;
+  }
+  
