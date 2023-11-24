@@ -11,9 +11,12 @@ import Saudacao from '../components/Saudacao.js';
 const Home = () => {
   return (
     <div className={styles.pageWrapper}>
-      <Header className={styles.header} />
+      <Header className={styles.header}
+       />
       <main className={styles.container}>
-        <div className={styles.centerContent}>
+     
+        <div className={styles.centerContent}
+        >
           <Saudacao />
         </div>
         <div className={styles.buttonContainer}>
