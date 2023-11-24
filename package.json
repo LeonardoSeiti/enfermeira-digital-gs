@@ -8,6 +8,7 @@
   "dependencies": {
     "feather-icons": "^4.29.1",
     "next": "latest",
+    "oracledb": "^6.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-feather": "^2.0.10",

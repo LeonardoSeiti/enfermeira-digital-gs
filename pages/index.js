@@ -5,7 +5,7 @@ import Botao from '../components/Botão.js';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import EquipeFooter from '../components/EquipeFooter.js';
-import { Calendar, User, Settings } from 'react-feather';
+import { Calendar, User, Clipboard } from 'react-feather';
 import Saudacao from '../components/Saudacao.js';
 
 const Home = () => {
@@ -21,7 +21,9 @@ const Home = () => {
             <Botao texto="Botão 1" icon={Calendar} />
           </Link>
           <Botao texto="Botão 2" icon={User} />
-          <Botao texto="Botão 3" icon={Settings} />
+          <Link href="/prontuario">
+            <Botao texto="Prontuário" icon={Clipboard} />
+          </Link>
         </div>
       </main>
       <Footer className={styles.footer} />
