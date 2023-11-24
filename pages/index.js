@@ -21,9 +21,9 @@ const Home = () => {
         </div>
         <div className={styles.buttonContainer}>
           <Link href="/agendamento">
-            <Botao texto="Botão 1" icon={Calendar} />
+            <Botao texto="Agendamento" icon={Calendar} />
           </Link>
-          <Botao texto="Botão 2" icon={User} />
+          <Botao texto="Perfil" icon={User} />
           <Link href="/prontuario">
             <Botao texto="Prontuário" icon={Clipboard} />
           </Link>
