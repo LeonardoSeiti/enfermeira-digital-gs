@@ -1,0 +1,5 @@
+.prontuarioContainer {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    margin: 50px auto; /* Adiciona margem superior e inferior para centralizar verticalmente */
+    max-width: 600px; /* Define a largura máxima do container */
+  }
