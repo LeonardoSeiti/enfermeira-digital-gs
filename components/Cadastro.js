@@ -35,7 +35,7 @@ const Formrs  = () => {
       tipoDocumento
     };
   console.log(formData)
-    axios.post('http://localhost:1287/cadastro', formData)
+    axios.post('http://localhost:8080/cadastro', formData)
       .then(response => {
         console.log('Resposta do backend:', response.data);
       })
