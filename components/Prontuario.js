@@ -2,7 +2,7 @@ import React from 'react';
 
 const Prontuario = ({ dados }) => {
   return (
-    <div>
+    <div style={{ textAlign: 'center', marginTop: '100px', marginBottom: '350px' }}>
       <h1>Informações do Prontuário</h1>
       <p>Nome: {dados.nome}</p>
       <p>Idade: {dados.idade}</p>

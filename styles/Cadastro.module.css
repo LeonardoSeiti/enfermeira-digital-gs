@@ -47,3 +47,11 @@
   .submitButton:hover {
     background-color: #0056b3;
   }
+  .pageCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 190px; 
+    padding-bottom: 200px;
+  }
