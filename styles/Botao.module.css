@@ -1,0 +1,30 @@
+.botaoWrapper {
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 10px; 
+}
+
+.botao {
+
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  background-color: white; 
+  color: #333; 
+  border: 1px solid #333; 
+  padding: 10px 20px; 
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px; 
+  width: 200px; 
+  height: 40px; 
+  
+}
+  .botao span {
+    margin-left: 8px; 
+  }
+  
+  .botao:hover {
+    background-color: #0056b3;
+  }
+  
