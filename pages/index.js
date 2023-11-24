@@ -23,7 +23,9 @@ const Home = () => {
           <Link href="/agendamento">
             <Botao texto="Agendamento" icon={Calendar} />
           </Link>
+          <Link href="/Formulario">
           <Botao texto="Perfil" icon={User} />
+          </Link>
           <Link href="/prontuario">
             <Botao texto="Prontuário" icon={Clipboard} />
           </Link>
